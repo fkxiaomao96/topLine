@@ -1,4 +1,6 @@
 import Vue from 'vue'
+// 完整写法
+// import Vue from "../node_modules/vue/dist/vue.js"
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
@@ -21,8 +23,8 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
+  // mode: 'history',
+  // base: process.env.BASE_URL,
   routes
 })
 
